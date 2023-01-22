@@ -1,0 +1,87 @@
+
+
+
+.wrapper{
+    background-color: rgb(246, 250, 248);
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container{
+    display: flex;
+    border-radius: 1rem;
+ 
+    filter: drop-shadow(0 0 0.2rem rgb(2, 48, 49));
+    
+}
+.Mug{
+    height:28rem;
+    border-radius: 1rem;
+}
+
+img{
+    height:100%;
+   border-top-left-radius: 1rem;
+   border-bottom-left-radius: 1rem;
+}
+
+.Price{
+    background-color: white;
+    height:28rem;
+    width:23rem;
+    padding-left: 2.5rem;
+    border-top-right-radius:1rem;
+    border-bottom-right-radius: 1rem;
+   
+}
+#pr_1{
+    color:rgb(7, 115, 119);
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+#pr_2{
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+#pr_3{
+    margin-left: 0.3rem;
+    font-size: 1.3rem;
+    font-family: "Fraunces", serif;
+}
+.btn_img{
+    height:1.5rem;
+    width:1.5rem;
+}
+.button{
+    height:3rem;
+    width:20rem;
+    background-color:rgb(7, 115, 119) ;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:2s;
+}
+#btn_txt{
+    margin-left: 1rem;
+    color:white;
+}
+
+.button:hover{
+    background-color:rgb(6, 99, 100) ;
+    filter: drop-shadow(0 0 0.1rem rgb(2, 48, 49));
+    transform: scale(1.05);
+}
+#tx1{
+    font-family: "Montserrat", sans-serif;
+}
+#tx2{
+    font-family: "Fraunces", serif;
+}
+#tx3{
+    font-family: "Montserrat", sans-serif;
+}
